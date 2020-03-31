@@ -5,7 +5,7 @@ dotenv.config({ path: `${__dirname}/../.env` })
 // Dependencies
 import { Telegraf, ContextMessageUpdate } from 'telegraf'
 import { setupStartAndHelp } from './commands/startAndHelp'
-import { setupRandy } from './commands/randy'
+import { setupRandy } from './commands/sorteo'
 import { setupCallback, setupListener } from './helpers/raffle'
 import { setupLanguage, setupLanguageCallback } from './commands/language'
 import { setupNumberCallback, setupNumber } from './commands/number'
